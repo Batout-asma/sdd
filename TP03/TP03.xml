@@ -1,0 +1,211 @@
+<tp>
+    <tp1>
+        <stokage>
+            <bouteille>
+                <marque>
+                    Cristaline
+                </marque>
+                <volume>
+                    150 cl
+                </volume>
+                <positif>
+                    <ion>
+                        <name>Calcium</name>
+                        <concentration>71 mg/l</concentration>
+                    </ion>
+                    <ion>
+                        <name>Magnésium</name>
+                        <concentration>5,5 mg/l</concentration>
+                    </ion>
+                </positif>
+                <negatif>
+                    <ion>
+                        <name>Chlorures</name>
+                        <concentration>20 mg/l</concentration>
+                    </ion>
+                    <ion>
+                        <name>Nitrates</name>
+                        <concentration>5,5 mg/l</concentration>
+                         
+                    </ion>
+                </negatif>
+                <metal>
+                    Fer
+                </metal>
+            
+                <source>
+                    St-Cyr
+                </source>
+            
+                <departement>
+                    Loiret
+                </departement> 
+            
+                <code-barre>
+                    3274080005003
+                </code-barre>
+            
+                <ph>
+                    7,45
+                </ph>
+            </bouteille>
+            
+            <bouteille>
+                <marque>
+                    Cristaline
+                </marque>
+                <volume>
+                    150 cl
+                </volume>
+                <composant>
+                    <positif>
+                        <ion>
+                            <name>Calcium</name>
+                            <concentration>98 mg/l</concentration>
+                        </ion>
+                        <ion>
+                            <name>Magnésium</name>
+                            <concentration>4 mg/l</concentration>
+                        </ion>
+                    </positif>
+                    <negatif>
+                        <ion>
+                            <name>Chlorures</name>
+                            <concentration>3,6 mg/l</concentration>
+                        </ion>
+                        <ion>
+                            <name>Nitrates</name>
+                            <concentration>2 mg/l</concentration>
+                        </ion>
+                    </negatif>
+                </composant>
+            
+                <source>
+                    Aurèle
+                </source>
+            
+                <departement>
+                    Alpes Maritimes
+                </departement> 
+            
+                <code-barre>
+                    3268840001008
+                </code-barre>
+            
+                <ph>
+                    7,4
+                </ph>
+            </bouteille>
+        
+            <bouteille>
+                <marque>
+                    Volvic
+                </marque>
+                <volume>
+                    150 cl
+                </volume>
+                <composant>
+                    <positif>
+                        <ion>
+                            <name>Calcium</name>
+                            <concentration>11,5 mg/l</concentration>
+                        </ion>
+                        <ion>
+                            <name>Magnésium</name>
+                            <concentration>8 mg/l</concentration>
+                        </ion>
+                    </positif>
+                    <negatif>
+                        <ion>
+                            <name>Chlorures</name>
+                            <concentration>13,5 mg/l</concentration>
+                        </ion>
+                        <ion>
+                            <name>Nitrates</name>
+                            <concentration>6,3 mg/l</concentration>
+                        </ion>
+                    </negatif>
+                </composant>
+            
+                <code-barre>
+                    3057640117008
+                </code-barre>
+            
+                <ph>
+                    7
+                </ph>
+            </bouteille>
+        </stokage>        
+    </tp1>
+
+    <tp2>
+        <nuages>
+            <nuage>
+            <nom>
+            altocumulus
+            <espece>lenticularis</espece>
+            <espece>stratiformis</espece>
+            <espece>castellanus</espece>
+            <espece>flocus</espece>
+            </nom>
+            <altitude max="6000" min="2000"/>
+            <hydrometeores>Aucun.</hydrometeores>
+            </nuage>
+            <nuage>
+            <nom>
+            cirrus
+            <espece>flocus</espece>
+            <espece>castellanus</espece>
+            <espece>spissatus</espece>
+            <espece>uncinus</espece>
+            <espece>fibratus</espece>
+            </nom>
+            <altitude max="12000" min="6000"/>
+            <hydrometeores>Aucun.</hydrometeores>
+            </nuage>
+            <nuage>
+            <nom>
+            cirrocumulus
+            <espece>lenticularis</espece>
+            <espece>stratiformis</espece>
+            <espece>flocus</espece>
+            <espece>castellanus</espece>
+            </nom>
+            <altitude max="7000" min="5000"/>
+            <hydrometeores>Aucun.</hydrometeores>
+            </nuage>
+            <nuage>
+            <nom>
+            cumulus
+            <espece>fractus</espece>
+            <espece>humilis</espece>
+            <espece>mediocris</espece>
+            <espece>congestus</espece>
+            </nom>
+            <altitude max="8000" min="200"/>
+            <hydrometeores>Aucun en général.</hydrometeores>
+            </nuage>
+            <nuage>
+            <nom>
+            strato-cumulus
+            <espece>stratiformis</espece>
+            <espece>lenticularis</espece>
+            <espece>castellanus</espece>
+            </nom>
+            <altitude max="2000" min="0"/>
+            <hydrometeores>Aucun.</hydrometeores>
+            </nuage>
+            <nuage>
+            <nom>
+            cumulonimbus
+            <espece>calvus</espece>
+            <espece>capillatus</espece>
+            <espece>mammatus</espece>
+            </nom>
+            <altitude max="18000" min="300"/>
+            <hydrometeores>Averses (parfois de neige, de grésil ou de grêle).</hydrometeores>
+            </nuage>
+            </nuages>
+            
+    </tp2>
+</tp>
