@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding= "UTF-8"?>
+<!-- début de la DTD -->
+<!DOCTYPE textemath [
+<!-- DTD pour décrire un texte contenant des formules mathématiques -->
+<!ELEMENT textemath ((texte | formule)+) >
+<!ELEMENT texte (#PCDATA) >
+<!ELEMENT formule (valeur|somme|difference|produit|fraction|racine|puissance) >
+<!ELEMENT valeur (#PCDATA)>
+<!ELEMENT somme (op1, op2)>
+<!ELEMENT difference (op1, op2)>
+<!ELEMENT produit (op1, op2)>
+<!ELEMENT fraction (op1, op2)>
+<!ELEMENT racine (op1)>
+<!ATTLIST racine ordre CDATA #IMPLIED>
+<!ELEMENT puissance (op1)>
+<!ATTLIST puissance exposant CDATA #REQUIRED>
+<!ELEMENT op1 (valeur|formule)>
+<!ELEMENT op2 (valeur|formule)>
+]>
+<!-- fin de la DTD -->
+<textemath>
+    <formule>
+        <fraction>
+            <op1>
+                <formule>
+                    <somme>
+                        <op1>
+                            <formule>
+                                <puissance exposant="4">
+                                    <op1>
+                                        <valeur>4</valeur>
+                                    </op1>
+                                </puissance>
+                            </formule>
+                        </op1>
+                        <op2>
+                            <formule>
+                                <racine ordre="3">
+                                    <op1>
+                                        <valeur>
+                                            5
+                                        </valeur>
+                                    </op1>
+                                </racine>
+                            </formule>
+                        </op2>
+                    </somme>
+                </formule>
+            </op1>
+            <op2>
+                <formule>
+                    <produit>
+                        <op1>
+                            <valeur>
+                                7
+                            </valeur>
+                        </op1>
+                        <op2>
+                            <formule>
+                                <racine>
+                                    <op1>
+                                        <valeur>
+                                            3
+                                        </valeur>
+                                    </op1>
+                                </racine>
+                            </formule>
+                        </op2>
+                    </produit>
+                </formule>
+            </op2>
+        </fraction>
+    </formule>
+</textemath>
